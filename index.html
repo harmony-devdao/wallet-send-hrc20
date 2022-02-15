@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet Send HRC20</title>
+
+    <style>
+
+        #send-ui > * {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="message-container"></p>
+    <button id="connect-btn" onclick="connect()">Connect</button>
+
+    <div id="send-ui" style="display: none;">
+        <label for="">Balance</label>
+        <input type="text" readonly id="balance">
+        <label for="send-amount">To</label>
+        <input type="text" id="receiver" placeholder="0x... address">
+        <label for="send-amount">Amount</label>
+        <input type="number" id="send-amount" value="10">
+        <button onclick="send()">Send</button>
+    </div>
+
+    <script src="./node_modules/ethers/dist/ethers.umd.min.js" type="application/javascript"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

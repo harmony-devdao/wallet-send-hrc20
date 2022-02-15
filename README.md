@@ -1,6 +1,6 @@
-# Example How To Send HRC-20 Tokens
+# Example How To Send HRC-20 Tokens Using A Wallet
 
-This is a basic example how you can programatically send HRC-20 tokens.
+This is a basic example how you can send HRC-20 tokens signing it with a wallet.
 This example uses **ether-js**.
 
 ##  DISCLAIMER
@@ -22,15 +22,17 @@ keep the examples error free. But errors can always happen. And we take no respo
 npm install
 ```
 
-## Setup 
-
-Create a .env file by renaming the .env.example file.
-Enter a private key here (**KEEP DISCLAIMER IN MIND**).
-
-
 
 ## Run
 
+A simple way to run the application is the live-server npm package: https://www.npmjs.com/package/live-server.
+Just install it globally:
+
 ```
-node index.js
+npm install -g live-server
+```
+
+And then run it from the root of this directory:
+```
+live-server
 ```
