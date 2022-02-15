@@ -1,0 +1,21 @@
+{
+  "name": "send-hrc20",
+  "version": "1.0.0",
+  "description": "An basic node-js example how to send an hrc-20 token.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "harmony",
+    "harmony-one",
+    "hrc20",
+    "web3"
+  ],
+  "author": "Sev",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "ethers": "^5.5.3"
+  }
+}
